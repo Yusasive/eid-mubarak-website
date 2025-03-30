@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎉 Eid Mubarak Animated Website 🎉
 
-## Getting Started
+This is a beautifully animated **Eid Mubarak** congratulation website Developed by Yusasive, built with **Next.js, TypeScript, and Tailwind CSS**. The website features interactive elements such as **crescent moon animations, hanging lanterns, a greeting card generator, fireworks, and a dark/light mode toggle**.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Features
+
+✅ **Crescent Moon & Star Animations** 🌙✨  
+✅ **Hanging Lanterns** 🏮  
+✅ **Personalized Greeting Card Generator** 💌  
+✅ **Fireworks & Confetti on Click** 🎆🎉  
+✅ **Dark/Light Mode Toggle** 🌗  
+✅ **Responsive & Mobile-Friendly** 📱  
+
+---
+
+## 🛠️ Technologies Used
+
+- **Next.js** – React framework for building interactive UIs  
+- **TypeScript** – Static typing for better code quality  
+- **Tailwind CSS** – For beautiful and responsive UI  
+- **Framer Motion** – For smooth animations  
+- **Lottie React** – For animated lanterns  
+- **React Confetti** – For fireworks and confetti effect  
+
+---
+
+## 📦 Installation & Setup
+
+### 1️⃣ **Clone the Repository**
+```sh
+git clone https://github.com/yusasive/eid-mubarak-website.git
+cd eid-mubarak-website
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2️⃣ **Install Dependencies**
+```sh
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3️⃣ **Run the Development Server**
+```sh
+npm run dev
+```
+Visit **[http://localhost:3000](http://localhost:3000)** in your browser to see the website.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🎨 Customization
 
-To learn more about Next.js, take a look at the following resources:
+- Change animations by replacing Lottie files in `/assets/`  
+- Update the theme colors inside `tailwind.config.ts`  
+- Modify text & layout in `app/page.tsx`  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚀 Deployment
 
-## Deploy on Vercel
+### Deploy to Vercel  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Install Vercel CLI  
+   ```sh
+   npm install -g vercel
+   ```
+2. Login to Vercel  
+   ```sh
+   vercel login
+   ```
+3. Deploy the project  
+   ```sh
+   vercel
+   ```
+Your website will be live at **https://your-project-name.vercel.app** 🎉  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📜 License  
+
+This project is **open-source** under the MIT License. Feel free to use and modify it.  
+
+---
+
+## 🎉 Acknowledgments  
+
+Built with ❤️ using **Next.js, Tailwind CSS, and Framer Motion**.  
+Happy Eid! 🌙✨  
+
+---
+🚀 **Contributions & Feedback are Welcome!**  
+If you like this project, give it a ⭐ on GitHub!  
