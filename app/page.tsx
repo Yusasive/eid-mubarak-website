@@ -1,12 +1,15 @@
 "use client";
 
+import dynamic from "next/dynamic";
 import CrescentMoon from "./components/CrescentMoon";
 import Stars from "./components/Stars";
-import Lantern from "./components/Lantern";
 import GreetingCard from "./components/GreetingCard";
 import Fireworks from "./components/Fireworks";
 import ThemeToggle from "./components/ThemeToggle";
 import { motion } from "framer-motion";
+
+// Dynamically import Lantern to disable SSR
+const Lantern = dynamic(() => import("./components/Lantern"), { ssr: false });
 
 export default function Home() {
   return (
@@ -16,7 +19,7 @@ export default function Home() {
       </div>
       <Stars />
       <CrescentMoon />
-      <Lantern />
+      <Lantern /> {/* This will now load only on the client */}
       <motion.h1
         className="text-6xl sm:text-7xl font-extrabold text-gold font-arabic mt-8 drop-shadow-lg"
         initial={{ opacity: 0, y: -50, scale: 0.8 }}
@@ -34,7 +37,6 @@ export default function Home() {
         May this Eid bring peace, joy, and countless blessings to you and your
         family.
       </motion.p>
-
       <motion.div
         className="mt-8 p-6 rounded-lg backdrop-blur-xl bg-white/10 border border-white/20 shadow-lg"
         initial={{ opacity: 0, y: 30 }}
