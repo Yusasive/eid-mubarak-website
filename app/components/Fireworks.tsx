@@ -9,7 +9,7 @@ export default function Fireworks() {
 
   const startCelebration = () => {
     setShowConfetti(true);
-    setTimeout(() => setShowConfetti(false), 5000); // Stop after 5s
+    setTimeout(() => setShowConfetti(false), 5000);
   };
 
   return (
